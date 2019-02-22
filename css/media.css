@@ -1,0 +1,278 @@
+@media(min-width: 1024px){
+	.tariffs .row{
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+}
+@media(max-width: 1024px){
+	.tariffs .row{
+		margin: 0;
+	}
+}
+
+@media(max-width: 992px){
+	.tariffs .categoryb_info {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+	.tariffs .learning_theory{
+		margin-top: 30px;
+	}
+	.tariffs.school_entry .main_block {
+		margin: auto;
+	}
+	.tariffs.online .main_block {
+		max-width: 760px;
+		margin: auto;
+	}
+	.tariffs .motorcycle{
+		margin: auto;
+		margin-bottom: 30px;
+	}
+	.tariffs .motorcycle .buttons {
+		display: block;
+	}
+	.tariffs .motorcycle .buttons_item{
+		width: 100%;
+	}
+	.tariffs .motorcycle .buttons_item{
+		display: block;
+	}
+	.tariffs .motorcycle {
+		box-shadow: 0px 23px 60px rgba(59, 72, 106, 0.15);
+		border-bottom: none;
+	}
+	.tariffs .motorcycle .buttons_item{
+		display: block;
+	}
+	.tariffs .motorcycle.moped .items {
+		margin: 30px 0 10px;
+	}
+	.tariffs .motorcycle .items {
+		margin: 10px 0 7px;
+	}
+	.tariffs .motorcycle.snowmobile .price{
+		padding-bottom: 24px;
+	}
+	.tariffs .motorcycle.snowmobile .items{
+		margin-top: 0;
+	}
+	.tariffs .motorcycle{
+		background: #fff;
+		border-color: transparent;
+	}
+	.tariffs .motorcycle .title{
+		color: #3083ED;
+	}
+	.tariffs .motorcycle .price_item2{
+		color: #3083ED;
+	}
+	.tariffs .motorcycle{
+		border: none;
+	}
+	.tariffs .motorcycle.snowmobile .title {
+		height: 102px;
+	}
+	.tariffs .motorcycle .buttons_item .btn-primary {
+		border-radius: 0px 0px 10px 10px;
+	}
+	.tariffs .motorcycle .buttons_item .btn-outline:hover {
+		border-radius: 0;
+	}
+	.tariffs .motorcycle .buttons_item .btn-outline{
+		border-radius: 0;
+	}
+}
+@media(max-width: 768px){
+	.tariffs .categoryb_info {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		max-width: 500px;
+		margin: auto;
+	}
+	.tariffs .learning_theory-footer {
+		display: block;
+	}
+	.tariffs .learning_theory .learning_theory-top{
+		height: 140px;
+	}
+	.tariffs .learning_theory .learning_theory-top .image {
+		margin: -64px 0 0 26px;
+	}
+	.tariffs .learning_theory .learning_theory-icons{
+		top: 127px;
+	}
+	.tariffs .learning_theory  .learning_theory-body{
+		background-color: #fff;
+		border-radius: 0;
+		padding-bottom: 15px;
+	}
+	.tariffs .learning_theory .learning_theory-body .date{
+		color: #3083ED;
+		margin-top: 6px;
+	}
+	.tariffs .learning_theory .learning_theory-body .cost_label {
+		font-size: 16px;
+		font-family: 'Montserrat Light';
+		color: #FC9A40;
+	}
+	.tariffs .learning_theory .learning_theory-body .cost_value{
+		color: #3083ED;
+	}
+	.tariffs .learning_theory{
+		box-shadow: 0px 23px 60px rgba(59, 72, 106, 0.15);
+		border-radius: 10px;
+	}
+	.tariffs.school_entry .block_right{
+		position: initial;
+		margin-top: 40px;
+	}
+	.tariffs.school_entry .main_block {
+		max-width: 440px;
+	}
+	.tariffs.online .learning_theory-top{
+		display: none;
+	}
+	.tariffs.online .main_block {
+		max-width: 550px;
+	}
+	.tariffs .maximum {
+		font-size: 70px;
+	}
+	.tariffs .thank_footer .quote,
+	.tariffs .thank_footer .quote2{
+		display: none;
+	}
+}
+@media(max-width: 575px){
+	.tariffs .categoryb_info-item .desc_label {
+		font-size: 17px;
+	}
+	.tariffs .categoryb_info-item .desc_value {
+		font-size: 15px;
+	}
+	.tariffs .learning_theory {
+		margin-top: 80px;
+	}
+	.tariffs .learning_theory.last_child{
+		margin-top: 30px;
+	}
+	.tariffs .table .table_item1,
+	.tariffs .table .table_item2{
+		font-size: 13px;
+	}
+	.tariffs .maximum {
+		font-size: 50px;
+	}
+	.tariffs .block_left-body .min_max_item{
+		margin-right: 25px;
+	}
+	.tariffs .block_left_footer {
+		align-items: start;
+		flex-direction: column;
+	}
+	.tariffs .block_left_footer .item_text{
+		margin-bottom: 12px;
+	}
+	.tariffs.thank .thank_body{
+		flex-direction: column;
+	}
+	.tariffs .thank_body_text{
+		margin-bottom: 12px;
+	}
+	.tariffs .thank_footer_text{
+		background: #ffffff80;
+		left: 0;
+		height: 100%;
+		top: 0;
+		padding: 50px 8px;
+	}
+	.tariffs .thank_footer_text p{
+		margin-top: 0;
+	}
+	.tariffs.thank .main_block_content{
+		padding-left: 40px;
+	}
+	.tariffs .min_max {
+		flex-direction: column;
+		max-width: 151px;
+	}
+	.tariffs .min_max_item{
+		margin-bottom: 12px;
+		display: block;
+	}
+	.tariffs .maximum {
+		display: none;
+	}
+}
+
+@media(max-width: 480px){
+	.tariffs .categoryb_info {
+		grid-template-columns: 1fr;
+	}
+	.tariffs .categoryb_info-item .desc_label {
+		font-size: 18px;
+	}
+	.tariffs .categoryb_info-item .desc_value {
+		font-size: 17px;
+	}
+	.tariffs .item_buttons{
+		display: flex;
+		flex-direction: column;
+	}
+	.tariffs .item_buttons .btn-primary{
+		margin-left: 0;
+		margin-top: 12px;
+	}
+	.tariffs.school_entry .form,
+	.tariffs.school_entry .box{
+		flex-direction: column;
+	}
+	.tariffs.school_entry .modal-body .form .form-group,
+	.tariffs.school_entry .form .form-group{
+		width: 100%;
+	}
+	.tariffs.school_entry .modal-footer .btn{
+		font-size: 14px;
+	}
+	.tariffs.school_entry .modal-footer {
+		padding: 0 10px 40px;
+	}
+	.tariffs.school_entry .modal-body{
+		padding: 0 10px;
+	}
+	.tariffs.school_entry .table .first_child,
+	.tariffs.school_entry .table .second_child,
+	.tariffs.school_entry .table .last_child{
+		font-size: 12px;
+	}
+	.tariffs.online .table tr{
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 16px;
+	}
+	.tariffs .table .table_item1{
+		margin-bottom: 0;
+	}
+	.tariffs .table .table_item1,
+	.tariffs .table .table_item2{
+		font-size: 16px;
+	}
+	.tariffs .thank_footer_text{
+		font-size: 12px;
+		padding: 13px;
+	}
+	.tariffs.thank .main_block_content {
+		padding-left: 20px;
+	}
+}
+@media(max-width: 390px){
+	.tariffs .thank_footer_img{
+		width: initial;
+	}
+	.tariffs .thank_footer_text {
+		font-size: 11px;
+		padding: 6px 10px;
+	}
+}
